@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HyperWebX</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+
+    <!--===================Inicio de la pagina==========================-->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-solid fa-code"></i>
+                        <h1>HyperWebX</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!--==========Menú Responsive============-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- 
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    -->
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrolladores Webs</h2>
+                        <p> HyperWebX es un equipo de estudiantes de ingeniería de sistemas apasionados por el desarrollo web y el análisis de datos. 
+                            Buscamos ayudar a los pequeños y medianos negocios a adentrarse en el mundo digital a través de la creación de sus propias páginas web a un bajo costo, 
+                            donde podrán participar de manera activa en el desarrollo de su página.
+                        </p>
+                            <a href="manual.html" class="btn btn-1">Condiciones Legales</a>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/hyperwebx.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!--===================Servicios que ofrecemos==========================-->
+
+    <span class="sombra">
+        <section id="servicios" class="servicios">
+            <div class="fila">
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color1">
+                            <div class="circulo">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                        </div>
+                        <h3>Desarrollo de páginas estáticas</h3>
+                        <p>Diseñamos sitios web estáticos atractivos para pequeñas empresas y emprendedores, mostrando productos de manera clara. Ofrecemos un diseño personalizado que destaca tu marca y asegura una navegación fluida.</p>
+                            
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color2">
+                            <div class="circulo">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                        </div>
+                        <h3>Desarrollo de páginas para administrar negocios</h3>
+                        <p>Ofrecemos soluciones web personalizadas que facilitan la gestión de tu negocio, 
+                            optimizando inventarios y administración de clientes. Mejoramos la productividad optimizando tus procesos de manera eficiente.</p>
+                            
+                    </div>
+                </div>  
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color3">
+                            <div class="circulo">
+                                <i class="fa-solid fa-dragon"></i>
+                            </div>
+                        </div>
+                        <h3>Desarrollo de páginas para analizar datos de tu negocio</h3>
+                        <p>Creamos plataformas para recopilar y analizar datos críticos de tu negocio, con herramientas 
+                            que facilitan decisiones informadas y seguimiento del rendimiento en tiempo real.</p>
+                            
+                    </div>
+                </div>
+            </div>
+    
+            <div class="fila">
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color4">
+                            <div class="circulo">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                        </div>
+                        <h3>Desarrollo de portafolios</h3>
+                        <p>Creamos portafolios digitales personalizados que destacan tu estilo y habilidades de forma impactante. 
+                            Nuestros diseños son atractivos y optimizados para una navegación fluida, 
+                            permitiendo a los visitantes explorar fácilmente tus proyectos y logros.</p>
+                        
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color5">
+                            <div class="circulo">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </div>
+                        </div>
+                        <h3>Soporte Clientes</h3>
+                        <p>En HyperWebX, trabajamos estrechamente con nuestros clientes, 
+                            alineando cada etapa del desarrollo a sus expectativas. 
+                            Valoramos sus opiniones y hacemos ajustes para asegurar que el producto final cumpla con sus objetivos y refleje su visión.</p>    
+                            
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color6">
+                            <div class="circulo">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <h3>Tiendas Online</h3>
+                        <p>Hacemos realidad tu sueño de tener tu negocio digitalizado </p>
+                            
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </span>
+
+    <!--===================Habilidades==========================-->
+
+    <span class="sombra">
+        <section class="habilidades" id="habilidades">
+            <div class="contenedor-habi">
+                <h2>Habilidades</h2>
+                <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>HTML Y CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="45">
+                                45%
+                            </div>
+                            <h2>MySQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart " data-percent="50">
+                                50%
+                            </div>
+                            <h2>PYTHON</h2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="fila">
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart " data-percent="50">
+                                    50%
+                                </div>
+                                <h2>Django</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart " data-percent="10">
+                                    10%
+                                </div>
+                                <h2>javascript</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart " data-percent="30">
+                                    30%
+                                </div>
+                                <h2>Streamlit</h2>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+    </span>
+
+    <!--===================Trabajos==========================-->
+
+    <section class="trabajos" id="trabajos">
+        <h2>Nuestros Proyectos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="Diseños" onclick="verCategoria('disenio')">Diseños</a>
+            <a href="javascript:void(0)" class="" id="programación" onclick="verCategoria('programacion')">Programación</a>
+            <a href="javascript:void(0)" class="" id="Basedatos" onclick="verCategoria('Basedatos')">Bases de datos</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/camaron.jpg">
+                <div class="info">
+                    <h3>coral cuisine</h3>
+                    <span>html</span><span>css</span><span>Django</span>
+                    <a href="https://coralcuisine.pythonanywhere.com">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/cinebox.jpg">
+                <div class="info">
+                    <h3>cinebox</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://mckenxye.github.io/ProyectoCineBox/">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/coffeeshop.jpg">
+                <div class="info">
+                    <h3>Coffe-shop</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://k31ner.github.io/Coffe-shop/">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item Basedatos">
+                <img src="img/jigxxer.jpg">
+                <div class="info">
+                    <h3>jigxxer</h3>
+                    <span>html</span><span>css</span><span>Django</span>
+                    <a href="https://jigxxer.pythonanywhere.com">Ver trabajo</a>
+                </div>
+            </div>
+            <div class="item Basedatos">
+                <img src="img/italia.jpg">
+                <div class="info">
+                    <h3>Titulo del trabajo</h3>
+                    <span>html</span><span>css</span><span>Django</span><span>javascript</span>
+                    <a href="#">Ver trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Manual-->
+    <div class="manual">
+        <h2>Manual de Condiciones</h2>
+        <div class="card">
+        <h3>Condiciones para la compra de servicios</h3><br>
+        <p>
+        <strong>Precios y pagos:</strong> El precio y el método de pago se acordarán entre el cliente y el proveedor del servicio antes de comenzar el proyecto. No se iniciará ningún trabajo sin un acuerdo explícito entre ambas partes.
+        </p>
+        <p><strong>Entrega de servicios:</strong> Las condiciones y fechas de entrega serán previamente pactadas entre el cliente y el proveedor. Cualquier cambio en los plazos deberá ser discutido y acordado por ambas partes.</p>
+        <p><strong>Política de reembolso:</strong> Una vez recibido el pago inicial o total, no se otorgarán reembolsos, salvo en situaciones excepcionales previamente acordadas y documentadas entre el cliente y el proveedor del servicio.</p>
+        <p><strong>Política de revisiones:</strong> El cliente tiene derecho a solicitar revisiones durante el desarrollo del proyecto, las cuales incluirán correcciones y ajustes según lo solicitado. Al finalizar el proyecto, el cliente tendrá derecho a una revisión final para verificar que el resultado coincida con lo acordado. Cualquier solicitud de modificación adicional más allá de esta única revisión final estará sujeta a un cargo adicional, el cual será previamente acordado entre ambas partes.</p>
+        </div>
+    </div>
+
+    <!--===================Contacto==========================-->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>Correo@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <h3>Telefono:</h3>
+                        <p>+57 318 7599978</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <h3>Pais</h3>
+                        <p>Colombia</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <h3>Ciudad</h3>
+                        <p>Cartagena</p>
+                    </div>
+                </div>
+                <!-- 
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="email" placeholder="Example@gmail.com">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="enviar" class="btn">
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/573187599978?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios" class="whatsapp-icon" target="_blank">
+        <img src="img/iconowpp.png" alt="WhatsApp"/>
+    </a>
+    <footer>
+        <p>Creado por HyperWebX - Empieza con nosotros</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
