@@ -26,7 +26,13 @@ body{
     clip-path: polygon(0 0, 100% 0, 100% 59%, 51% 81%, 0 57%);
     height: 90vh;
     padding: 0 20px;
+    
 }
+
+.col_2 .contenedor-img {
+    padding-inline-start: 10px;
+}
+
 
 .inicio .contenido{
     max-width: 1100px;
@@ -40,6 +46,7 @@ body{
     padding: 30px 0;
     align-items: center;
 }
+
 
 .inicio .logo{
     display: flex;
@@ -117,7 +124,7 @@ body{
     text-decoration: none;
 }
 
-.inicio .fila .col button:hover{
+.inicio .fila .col_2 button:hover{
     transform: scale(1.1);
 }
 
@@ -171,6 +178,7 @@ body{
     padding: 30px;
     border-radius: 20px;
     position: relative;
+    overflow: hidden;
 }
 
 .servicios .icono{
@@ -250,6 +258,13 @@ body{
     padding: 60px 0;
     position: relative;
     top: -100px;
+    width: 100%;
+}
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .habilidades h2{
@@ -350,7 +365,6 @@ body{
 .trabajos .galeria .item {
     position: relative;
     overflow: hidden;
-    border: 1px solid #8d8d8d;
     border-radius: 10px;
     max-width: 330px;
     width: 100%; 
@@ -442,6 +456,7 @@ body{
 @media (max-width: 768px) {
     .manual{
         height: 220vh;
+    
     }
     .manual .card {
         width: 70%; /* Ajustar el ancho de la tarjeta para pantallas medianas */
@@ -573,11 +588,16 @@ footer{
     .inicio{
         clip-path: none;
     }
+
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
     .redes{
         display: none;
+    }
+    .col_2{
+        display: none;
+        align-items: center;
     }
     #nav{
         display: none;
@@ -682,35 +702,3 @@ footer{
         height: 80px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
